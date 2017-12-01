@@ -10,6 +10,7 @@ pipeline {
 		stage('Build') {
 			steps {
 				sh 'mvn -B -DskpTests clean package'
+			}		
 		}
 	}
 }
